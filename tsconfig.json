@@ -6,7 +6,7 @@
     "allowJs": true,
     "jsx": "preserve",
     "strict": true,
-    "jsxImportSource": "react", //"@emotion/react",
+    "jsxImportSource": "@emotion/react", //"react",
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
     "noUnusedLocals": true,
@@ -16,14 +16,8 @@
     "sourceMap": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
-    "typeRoots": [
-      "./node_modules/@types",
-      "./types"
-    ],
-    "lib": [
-      "dom",
-      "es2017"
-    ],
+    "typeRoots": ["./node_modules/@types", "./types"],
+    "lib": ["dom", "es2017"],
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
     "resolveJsonModule": true,
@@ -31,9 +25,7 @@
     "sourceRoot": "./src",
     "baseUrl": "./src",
     "paths": {
-      "~public/*": [
-        "../public/*"
-      ]
+      "~public/*": ["../public/*"]
     },
     "incremental": true
   },
@@ -54,6 +46,8 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
-    "tailwind.config.js"
+    "tailwind.config.js",
+    "src/pages/index.tsx",
+    "src/pages/_app.tsx"
   ]
 }

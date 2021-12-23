@@ -1,7 +1,18 @@
+import tw from 'twin.macro'
+import { css } from '@emotion/react'
+
 export default function Home() {
   return (
-    <div className="bg-amber-900">
-      <h1 className="text-white p-10">Teste</h1>
+    <div css={styles.root}>
+      <h1>Hello World</h1>
     </div>
   )
+}
+
+const styles = {
+  root: css`
+  background: white;
+  ${tw`flex items-center justify-center width[100vw] height[100vh]`},
+  h1{${tw`sm:(text-3xl color[blue]) md:(text-6xl color[red]) hover:(text-purple-600)`},
+  `,
 }
