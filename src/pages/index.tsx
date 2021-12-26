@@ -11,8 +11,8 @@ export default function Home() {
 
 const styles = {
   root: css`
-  background: white;
+  background: green;
   ${tw`flex items-center justify-center width[100vw] height[100vh]`},
-  h1{${tw`sm:(text-3xl color[blue]) md:(text-6xl color[red]) hover:(text-purple-600)`},
+  h1{${tw`sm:(text-3xl color[blue]) md:(text-6xl color[black]) hover:(text-white)`},
   `,
 }
