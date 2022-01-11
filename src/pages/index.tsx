@@ -4,7 +4,7 @@ import { css } from '@emotion/react'
 export default function Home() {
   return (
     <div css={styles.root}>
-      <h1>Hello World</h1>
+      <h1>Hello World - Osias Gualberto Miranda</h1>
     </div>
   )
 }
